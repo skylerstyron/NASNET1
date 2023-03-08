@@ -1,0 +1,2 @@
+<img class="floaticon left position-fixed z-3" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/img/nascient-mark.svg'); ?>" alt="Nascient Networks Icon" />
+<img class="floaticon right position-fixed z-3" src="<?php echo esc_url(get_stylesheet_directory_uri() . '/img/nascient-mark.svg'); ?>" alt="Nascient Networks Icon" />

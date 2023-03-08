@@ -1,0 +1,17 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/assets/bootstrap5/_variables.scss, paste it here and edit the value.
+
+$fa-font-path: "../webfonts";
+
+$nc-green: #006A3B;
+$nc-yellow: #F2B200;
+$nc-blue: #12A0F3;
+$nc-black: #09002A;
+$nc-dark-grey: #625B81;
+$nc-light-grey: #D0D2D3;
+$nc-white: #ffffff;
+$nc-purple: #09002A;
+
+$primary: $nc-blue;
+$secondary: $nc-green;  // Once we've changed the value, we'll also make it the primary brand color.

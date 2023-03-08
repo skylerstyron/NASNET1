@@ -1,0 +1,544 @@
+//Full Banner
+.full-banner {
+  height: 80vh;
+  position: relative;
+  margin-top: -60px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .2;
+    background: $nc-black;
+  }
+
+  h1 {
+    color: $nc-white;
+  }
+
+  p {
+    width: 50%;
+    color: $nc-white;
+  }
+
+  .banner-shape {
+    position: absolute;
+    top: 0;
+    opacity: .7;
+    right: 0;
+    width: 100%;
+  }
+}
+
+.sub-banner-w-img {
+  height: 85vh;
+  position: relative;
+  margin-top: -60px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .4;
+    background: $nc-black;
+  }
+
+  .banner-shape {
+    position: absolute;
+    top: 0;
+    opacity: .7;
+    right: 0;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 4.375;
+    color: $nc-white;
+  }
+
+  p {
+    color: $nc-white;
+  }
+}
+
+.sub-banner-no-img {
+  position: relative;
+
+  h3 {
+
+    lottie-player {
+      display: inline-block;
+      position: relative;
+      top: 7px;
+    }
+
+    ul {
+      display: inline-block;
+
+      li {
+        display: inline-block;
+
+        .nav-link {
+          font-size: 1rem;
+          color: $nc-blue;
+        }
+      }
+    }
+  }
+
+  .left-anima {
+    position: absolute;
+    left: -83px;
+    top: 200px;
+  }
+}
+
+.img-left {
+  .right-anima {
+    position: absolute;
+    right: -115px;
+    top: 20px;
+  }
+
+}
+
+// Testimonials 
+
+.testimonials-holder {
+  background-color: $nc-green;
+  padding: 120px 0;
+
+  .testimonial-name {
+    font-size: 24px;
+  }
+
+  .left-anima {
+    position: absolute;
+    left: -650px;
+    top: -334px;
+  }
+
+}
+
+//What we do 
+
+.what-we-do {
+
+  padding: 120px 0;
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      list-style: none;
+      margin-bottom: 46px;
+      margin-left: 5px;
+      font-size: 24px;
+      font-weight: bold;
+      color: $nc-black;
+
+      img {
+        display: inline-block;
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+//How We Work
+
+.how-we-work {
+  background-color: $nc-blue;
+  padding: 120px 0;
+
+  .btn-secondary {
+    position: relative;
+
+    &:hover {
+      box-shadow: 4px 4px $nc-yellow;
+
+      &:before {
+        transition: 0.5s;
+      }
+
+    }
+  }
+}
+
+.work-scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  width: 100%;
+
+  .work-box {
+
+    img {
+      width: 333px;
+      height: 269px;
+      object-fit: contain;
+    }
+
+    p {
+      color: white;
+    }
+
+    h2 {
+      font-family: titillium-web, sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 130px;
+      color: white;
+    }
+
+    h3 {
+      font-size: 24px;
+      color: white;
+      margin: 0 0 20px 0;
+    }
+
+  }
+}
+
+//Dark Background 
+.dark-bg,
+.dark-bg-bottom,
+.dark-bg-top,
+.dark-bg-tp,
+.dark-bg-bp,
+.dark-ol-bg {
+  background-color: $nc-purple;
+}
+
+.dark-bg {
+  padding: 100px 0;
+}
+
+.dark-bg-bottom {
+  padding-bottom: 120px;
+}
+
+.dark-bg-top {
+  padding-top: 120px;
+}
+
+.dark-bg-tp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  z-index: -1;
+}
+
+.dark-bg-bp {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  z-index: -1;
+}
+
+.dark-ol-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 80%;
+  z-index: -1;
+  border: none;
+}
+
+.green-cta {
+  background-color: $nc-green;
+  padding: 120px 0;
+
+  h2 {
+    color: $nc-white;
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    color: $nc-white;
+    font-size: 1.5rem;
+  }
+
+  p {
+    color: $nc-white;
+  }
+
+  .sub-page-h {
+    color: $nc-blue;
+  }
+}
+
+// Our Core Values
+
+.our-core-values {
+
+
+  h2 {
+    color: $nc-white;
+  }
+
+  p {
+    color: $nc-white;
+  }
+}
+
+.core-block {
+  position: relative;
+
+  h3 {
+    font-size: 2.75em;
+    color: $nc-white
+  }
+
+  p {
+    color: $nc-white;
+  }
+
+  .core-image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    border-radius: 10px;
+  }
+
+  .overlay-blue {
+    background-color: $nc-blue;
+  }
+
+  .overlay-green {
+    background-color: $nc-green;
+  }
+
+  .overlay-yellow {
+    background-color: $nc-yellow;
+  }
+
+  &:hover .overlay {
+    opacity: 1;
+  }
+}
+
+//Services Tabs 
+
+.services-tabs {
+  padding: 120px 0;
+
+  .nav-pills .nav-link.active,
+  .nav-pills .show>.nav-link {
+    color: $nc-black;
+    background-color: $nc-yellow;
+    text-align: left;
+    font-family: titillium-web, sans-serif;
+    font-weight: 700;
+    padding: 20px;
+  }
+
+  .nav-pills .nav-link {
+    color: $nc-black;
+    text-align: left;
+    font-family: titillium-web, sans-serif;
+    font-weight: 700;
+  }
+
+  .tab-content {
+    background-color: $nc-blue;
+    padding: 30px;
+    border-radius: 10px;
+
+    h2 {
+      color: $nc-white;
+      font-size: 40px;
+    }
+
+    p {
+      color: $nc-white;
+    }
+  }
+}
+
+// Teams 
+
+.person {
+
+  img {
+    height: 228px;
+    width: 228px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+
+// Contact Form 
+.contact {
+
+  h2 {
+    font-size: 24px;
+    background-color: $nc-yellow;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    color: $nc-white;
+  }
+
+  ul {
+    li {
+      color: $nc-black;
+      font-family: titillium-web, sans-serif;
+    }
+  }
+
+  .contact-form {
+    background-color: $nc-blue;
+    border-radius: 10px;
+
+    .fluentform .ff-text-left {
+      text-align: center;
+    }
+
+    .fluentform .ff-el-form-control {
+      background-clip: padding-box;
+      background-image: none;
+      border: none;
+      border-radius: 0;
+      color: #495057;
+      display: block;
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 0;
+      max-width: 100%;
+      padding: 6px 12px;
+      transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+      width: 100%;
+    }
+
+    form.fluent_form_1 .ff-btn-submit {
+      background-color: $nc-green;
+      color: $nc-white;
+      text-transform: uppercase;
+    }
+  }
+}
+
+// Post
+
+.featured-post {
+
+  img {
+    height: 393px;
+    width: 624px;
+  }
+
+  h2 {
+    font-size: 40px;
+
+    span a {
+      color: $nc-blue;
+      font-size: 18px;
+      display: block;
+    }
+
+    a {
+      color: $nc-black;
+      text-decoration: none;
+    }
+  }
+}
+
+.small-post {
+
+  h3 {
+    font-size: 24px;
+    height: 80px;
+
+    span a {
+      color: $nc-blue;
+      font-size: 18px;
+      display: block;
+    }
+
+    a {
+      color: $nc-black;
+      text-decoration: none;
+    }
+  }
+}
+
+.bsf-rt-reading-time {
+  text-align: center !important;
+  width: 100% !important;
+  color: $nc-light-grey !important;
+}
+
+// Blog
+
+.newsletter-form {
+  background-color: $nc-green;
+}
+
+.page-numbers {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.page-numbers.current {
+  color: $nc-yellow;
+  /* Change text color */
+}
+
+// Careers
+
+.careers {
+
+  .table>thead,
+  .wp-block-table table>thead {
+    vertical-align: bottom;
+    border-bottom: 2px solid $nc-yellow;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-size: 24px !important;
+
+    a {
+      color: $nc-blue !important;
+      text-decoration: none !important;
+    }
+  }
+
+  .location {
+    color: $nc-blue;
+    text-decoration: none;
+    font-size: 24px !important;
+    font-weight: 700;
+  }
+
+}
+
+// Globals 
